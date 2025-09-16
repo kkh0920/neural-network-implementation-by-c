@@ -68,7 +68,7 @@
   }
   ```
 
-### 1. 수식 정의
+### 1️⃣  수식 정의
 $$ 
 J = \frac{1}{2} (Y - t)^2\ 
 $$
@@ -81,7 +81,7 @@ $$
 Z = \sigma(X v)
 $$
 
-### 2. 비용 함수 J를 가중치 v, w에 대해 미분
+### 2️⃣  비용 함수 J를 가중치 v, w에 대해 미분
 $$
 \frac{\partial J}{\partial w} = \frac{\partial J}{\partial Y} \cdot \frac{\partial Y}{\partial w} = (Y - t) \cdot Y (1 - Y) \cdot Z
 $$
@@ -90,7 +90,7 @@ $$
 \frac{\partial J}{\partial v} = \frac{\partial J}{\partial Y} \cdot \frac{\partial Y}{\partial Z} \cdot \frac{\partial Z}{\partial v} = (Y - t) \cdot Y (1 - Y) \cdot w \cdot Z (1 - Z) \cdot X
 $$
 
-### 3. 경사 하강법을 통해 가중치 조정
+### 3️⃣  경사 하강법을 통해 가중치 조정
 $$
 w \gets w - \eta \frac{\partial J}{\partial w}
 $$
@@ -100,4 +100,4 @@ v \gets v - \eta \frac{\partial J}{\partial v}
 $$
 
 ## Result
-<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/84b3cf40-b0a7-4283-8843-82dee93bf598" />
+<img width="500" height="330" alt="image" src="https://github.com/user-attachments/assets/84b3cf40-b0a7-4283-8843-82dee93bf598" />
